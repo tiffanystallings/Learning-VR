@@ -1,15 +1,15 @@
 <html>
-	<head>
-		<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-		<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"><script>
-	</head>
-	<body>
-		<a-scene>
-			<a-assets>
-				<a-asset-item id="model" src="nature.ply"></a-asset-item>
-			</a-assets>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+		<a-asset-item id="model" src="assets/nature.ply"></a-asset-item>
+	  </a-assets>
 
-			<a-entity ply-model="src: #model" rotation="-90 0 0"></a-entity>
-		</a-scene>
-	</body>
+	  <a-entity ply-model="src: #model" rotation="-90 0 0"></a-entity>
+	</a-scene>
+  </body>
 </html>
